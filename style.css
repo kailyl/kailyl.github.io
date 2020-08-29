@@ -8,6 +8,12 @@ body, html{
     line-height: 1.8em;
 }
 
+.navbar{
+    background-color: rgb(170, 190, 189);
+    overflow:hidden;
+    height:63px;
+}
+
 .pimg1,.pimg2,.pimg3{
     position: relative;
     opacity: 0.95;
