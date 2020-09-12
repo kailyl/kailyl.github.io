@@ -1,0 +1,35 @@
+:root {
+    --primary-color: rgba(13, 110, 139, 0.05);
+    --overlay-color: rgba(24, 39, 51, 0.85);
+    --menu-speed: 0.75s;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    height: 100%;
+    font-size: 17px;
+    font-family: "Lucida Console", Monaco, monospace;
+    color:#666;
+    line-height: 1.4;
+}
+
+.ptext{
+    position: absolute;
+    top: 175px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.pimg1{
+    background-color:rgb(245, 216, 153);
+    min-height: 100%;
+}
