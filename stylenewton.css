@@ -20,16 +20,70 @@ body, html{
 
 .ptext{
     position: absolute;
-    top: 175px;
-    width: 100%;
+    top: 350px;
+    left: 50vmin;
+    width: 50%;
     text-align: center;
-    color: #fff;
+    color: rgb(108, 167, 164);
     font-size: 20px;
     letter-spacing: 8px;
     text-transform: uppercase;
 }
 
+
+.pimg1 {
+    position: relative;
+    opacity: 0.95;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
 .pimg1{
-    background-color:rgb(245, 216, 153);
+    background-color: rgb(245, 216, 153);
     min-height: 100%;
+}
+
+.title{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.position{
+    position:absolute;
+    top: 200px;
+    left: 10vw;
+}
+
+.position2{
+    position:absolute;
+    top: 500px;
+    left: 20vw;
+}
+
+.position3{
+    position:absolute;
+    top: 325px;
+    left: 2vw;
+}
+
+.position4{
+    position:absolute;
+    transform:scaleX(-1);
+    top: 700px;
+    right: 5vw;
+}
+
+.position5{
+    position:absolute;
+    transform:rotate(200deg);
+    top: 380px;
+    left: 35vw;
 }
