@@ -33,7 +33,7 @@ body, html{
 
 .showcase:before {
     content: '';
-    background: url('sunflowers.jpeg') no-repeat center center/cover;
+    background: url("images/sunflowers.jpeg") no-repeat center center/cover;
     position: absolute;
     top: 0;
     left: 0;
