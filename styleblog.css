@@ -87,6 +87,14 @@ body, html{
     position:absolute;
     top: 5vw;
     right: 5vw;
+    z-index: -1;
+}
+
+.position2{
+    position:absolute;
+    top: 25vw;
+    left: 5vw;
+    z-index: -1;
 }
 
 @media(max-width: 600px){

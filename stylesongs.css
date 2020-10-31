@@ -1,8 +1,6 @@
 :root {
     --primary-color: rgba(13, 110, 139, 0.05);
     --overlay-color: rgba(24, 39, 51, 0.85);
-    --pale-blue: rgb(157, 185, 184);
-    --yellow: rgb(245, 216, 153);
     --menu-speed: 0.75s;
 }
 
@@ -22,27 +20,16 @@ body, html{
 
 .ptext{
     position: absolute;
-    top: 550px;
-    left: 45vmin;
-    width: 50%;
+    top: 140px;
+    width: 100%;
     text-align: center;
-    color: var(--yellow);
+    color: rgb(245, 216, 153);
     font-size: 20px;
     letter-spacing: 8px;
     text-transform: uppercase;
 }
 
-.text2{
-    position: absolute;
-    top: 120%;
-    width: 100%;
-    text-align: center;
-    color: var(--yellow);
-    font-size: 20px;
-    letter-spacing: 8px;
-}
-
-.pimg1 .pimg2 .pimg3{
+.pimg1 {
     position: relative;
     opacity: 0.95;
     background-position: center;
@@ -52,72 +39,81 @@ body, html{
 }
 
 .pimg1{
-    background-image:url("images/plantes.jpg");
-    min-height: 45%;
-}
-
-.pimg3{
-    background-color: white;
-    min-height: 1%;
-}
-
-.pimg2{
-    background-color: var(--pale-blue);
-    min-height: 160%;
+    background-image:url("images/records.jpg");
+    min-height: 100%;
 }
 
 .title{
     position: absolute;
-    top: 200px;
+    top: 80px;
     width: 100%;
     text-align: center;
-    color: #000000;
+    color: #fff;
     font-size: 25px;
     letter-spacing: 8px;
     text-transform: uppercase;
+    font-weight: bolder;
 }
 
-.title .border{
-    color: #fff;
-    background-color: var(--yellow);
-    padding: 20px;
-}
-
-.position{
+.position1{
     position:absolute;
-    top: 500px;
-    left: 10vw;
+    top: 220px;
+    left: 3vw;
+    z-index: -1;
 }
 
 .position2{
     position:absolute;
-    top: 800px;
-    left: 20vw;
+    top: 650px;
+    right: 1vw;
+    z-index: -1;
 }
 
 .position3{
     position:absolute;
-    top: 640px;
-    left: 2vw;
+    top: 450px;
+    left: 10vw;
 }
 
 .position4{
     position:absolute;
-    transform:scaleX(-1);
-    top: 300px;
-    right: 0.5vw;
+    top: 200px;
+    right: 1vw;
 }
 
 .position5{
     position:absolute;
-    transform:rotate(200deg);
-    top: 590px;
-    left: 30vw;
+    top: 300px;
+    right: 40vw;
+
 }
 
 .position6{
     position:absolute;
-    top: 1455px;
-    right: 5vw; 
+    top: 550px;
+    right: 25vw;
 }
 
+.position7{
+    position:absolute;
+    top:390px;
+    right: 10vw;
+}
+
+.position8{
+    position:absolute;
+    top: 650px;
+    left: 25vw;
+}
+
+.position9{
+    position:absolute;
+    top: 460px;
+    left: 14vw;
+}
+
+.position10{
+    position:absolute;
+    top: 460px;
+    left: 14vw;
+}
