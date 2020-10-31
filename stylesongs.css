@@ -1,0 +1,157 @@
+:root {
+    --primary-color: rgba(13, 110, 139, 0.05);
+    --overlay-color: rgba(24, 39, 51, 0.85);
+    --pale-blue: rgb(157, 185, 184);
+    --yellow: rgb(245, 216, 153);
+    --blue: rgb(108, 167, 164);
+    --menu-speed: 0.75s;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    height: 100%;
+    font-size: 17px;
+    font-family: "Lucida Console", Monaco, monospace;
+    color:#666;
+    line-height: 1.4;
+}
+
+.ptext{
+    position: absolute;
+    top: 500px;
+    width: 100%;
+    left: 5vw;
+    text-align: left;
+    color: var(--blue);
+    font-size: 20px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.subtext{
+    position: absolute;
+    top: 540px;
+    width: 100%;
+    left: 10vw;
+    text-align: left;
+    color: var(--pale-blue);
+    font-size: 20px;
+    letter-spacing: 8px;
+}
+
+.pimg1 .pimg2 .pimg3{
+    position: relative;
+    opacity: 0.95;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.pimg1{
+    background-image:url("images/pexels-markus-spiske-4383295.jpg");
+    min-height: 45%;
+}
+
+.pimg3{
+    background-color: white;
+    min-height: 1%;
+}
+
+.pimg2{
+    background-color: var(--yellow);
+    min-height: 100%;
+}
+
+.title{
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.title .border{
+    color: #fff;
+    background-color: var(--blue);
+    padding: 20px;
+}
+
+.position1{
+    position:absolute;
+    top: 220px;
+    left: 3vw;
+    z-index: -1;
+}
+
+.position2{
+    position:absolute;
+    top: 650px;
+    right: 1vw;
+    z-index: -1;
+}
+
+.position3{
+    position:absolute;
+    top: 450px;
+    left: 10vw;
+}
+
+.position4{
+    position:absolute;
+    top: 200px;
+    right: 1vw;
+}
+
+.position5{
+    position:absolute;
+    top: 300px;
+    right: 40vw;
+
+}
+
+.position6{
+    position:absolute;
+    top: 550px;
+    right: 25vw;
+}
+
+.position7{
+    position:absolute;
+    top:390px;
+    right: 10vw;
+}
+
+.position8{
+    position:absolute;
+    top: 650px;
+    left: 25vw;
+}
+
+.position9{
+    position:absolute;
+    top: 200px;
+    left: 20vw;
+}
+
+.position10{
+    position:absolute;
+    top: 460px;
+    left: 14vw;
+} 
+
+@media(max-width: 600px){
+    .pimg1, .pimg2, .pimg3 {
+        background-attachment: scroll; 
+    }
+}
