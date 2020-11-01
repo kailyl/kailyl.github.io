@@ -22,7 +22,7 @@ body, html{
 
 .ptext{
     position: absolute;
-    top: 650px;
+    top: 68%;
     left: 45vmin;
     width: 50%;
     text-align: center;
@@ -34,10 +34,21 @@ body, html{
 
 .text2{
     position: absolute;
-    top: 1300px;
+    top: 120%;
     width: 100%;
     text-align: center;
     color: var(--yellow);
+    font-size: 20px;
+    letter-spacing: 8px;
+}
+
+
+.text3{
+    position: absolute;
+    top: 190%;
+    width: 100%;
+    text-align: center;
+    color: white;
     font-size: 20px;
     letter-spacing: 8px;
 }
@@ -68,7 +79,7 @@ body, html{
 
 .title{
     position: absolute;
-    top: 200px;
+    top: 23%;
     width: 100%;
     text-align: center;
     color: #000000;
@@ -85,39 +96,39 @@ body, html{
 
 .position{
     position:absolute;
-    top: 600px;
+    top: 65%;
     left: 10vw;
 }
 
 .position2{
     position:absolute;
-    top: 900px;
+    top: 90%;
     left: 20vw;
 }
 
 .position3{
     position:absolute;
-    top: 740px;
+    top: 80%;
     left: 2vw;
 }
 
 .position4{
     position:absolute;
     transform:scaleX(-1);
-    top: 400px;
+    top: 25%;
     right: 0.5vw;
 }
 
 .position5{
     position:absolute;
     transform:rotate(200deg);
-    top: 690px;
+    top: 70%;
     left: 30vw;
 }
 
 .position6{
     position:absolute;
-    top: 1455px;
+    top: 152%;
     right: 5vw; 
 }
 
