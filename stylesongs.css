@@ -23,30 +23,17 @@ body, html{
 
 .ptext{
     position: absolute;
-    top: 68%;
-    left: 45vmin;
-    width: 50%;
-    text-align: center;
-    color: var(--yellow);
-    font-size: 20px;
-    letter-spacing: 8px;
-    text-transform: uppercase;
-}
-
-.text2{
-    position: absolute;
-    top: 120%;
+    top: 50%;
     width: 100%;
     text-align: center;
-    color: var(--yellow);
+    color: var(--blue);
     font-size: 20px;
     letter-spacing: 8px;
 }
 
-
-.text3{
+.subtext{
     position: absolute;
-    top: 120%;
+    top: 60%;
     width: 100%;
     text-align: center;
     color: white;
@@ -64,7 +51,7 @@ body, html{
 }
 
 .pimg1{
-    background-image:url("images/plantes.jpg");
+    background-image:url("images/vier.jpg");
     min-height: 45%;
 }
 
@@ -74,8 +61,8 @@ body, html{
 }
 
 .pimg2{
-    background-color: var(--pale-blue);
-    min-height: 180%;
+    background-color: var(--yellow);
+    min-height: 100%;
 }
 
 .title{
