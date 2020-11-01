@@ -74,7 +74,7 @@ body, html{
 
 .pimg2{
     background-color: var(--pale-blue);
-    min-height: 1650px;
+    min-height: 180%;
 }
 
 .title{
@@ -129,6 +129,6 @@ body, html{
 .position6{
     position:absolute;
     top: 170%;
-    right: 5vw; 
+    right: 3vw; 
 }
 
