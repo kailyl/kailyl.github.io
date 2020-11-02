@@ -21,24 +21,14 @@ body, html{
     line-height: 1.4;
 }
 
-.ptext{
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: var(--blue);
-    font-size: 20px;
-    letter-spacing: 8px;
-}
-
 .subtext{
     position: absolute;
-    top: 60%;
+    top: 55%;
     width: 100%;
     text-align: center;
     color: white;
-    font-size: 20px;
-    letter-spacing: 8px;
+    font-size: 18px;
+    letter-spacing: 7px;
 }
 
 .pimg1 .pimg2 .pimg3{
@@ -51,7 +41,7 @@ body, html{
 }
 
 .pimg1{
-    background-image:url("images/vier.jpg");
+    background-image:url("images/cornn.jpg");
     min-height: 45%;
 }
 
@@ -62,21 +52,36 @@ body, html{
 
 .pimg2{
     background-color: var(--yellow);
-    min-height: 92%;
+    min-height: 54%;
 }
 
-.title{
+.title1{
     position: absolute;
-    top: 23%;
+    top: 19%;
     width: 100%;
     text-align: center;
     color: #000000;
-    font-size: 25px;
+    font-size: 20px;
     letter-spacing: 8px;
-    text-transform: uppercase;
 }
 
-.title .border{
+.title1 .border{
+    color: #fff;
+    background-color: var(--blue);
+    padding: 20px;
+}
+
+.title2{
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 8px;
+}
+
+.title2 .border{
     color: #fff;
     background-color: var(--blue);
     padding: 20px;

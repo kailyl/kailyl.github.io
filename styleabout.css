@@ -39,7 +39,7 @@ body, html{
 
 .title{
     position: absolute;
-    top: 450px;
+    top: 45%;
     width: 100%;
     text-align: center;
     color: #fff;
@@ -63,7 +63,7 @@ body, html{
 
 .ptext{
     position: absolute;
-    top: 520px;
+    top: 53%;
     width: 100%;
     text-align: center;
     color: rgb(245, 216, 153);
